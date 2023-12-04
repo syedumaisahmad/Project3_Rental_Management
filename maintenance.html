@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Maintenance Page</title>
+</head>
+<body>
+<h2 id="maintenance_h2">Welcome to Maintenance Staff portal!</h2>
+
+<div id="maintenanceRequests">
+    <h3>Browse Maintenance Requests</h3>
+    <label for="filter">Filter by:</label>
+    <select id="filter">
+        <option value="apartmentNumber">Apartment Number</option>
+        <option value="area">Area</option>
+        <option value="dateRange">Date Range</option>
+        <option value="status">Status</option>
+    </select>
+    <input type="text" id="filterInput">
+    <button onclick="filterRequests()">Apply Filter</button>
+
+    <ul id="requestList"></ul>
+</div>
+
+<div id="updateStatusForm" style="display:none;">
+    <h3>Update Request Status</h3>
+    <label for="status">New Status:</label>
+    <select id="status">
+        <option value="pending">Pending</option>
+        <option value="completed">Completed</option>
+    </select>
+    <button onclick="updateStatus()">Update Status</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

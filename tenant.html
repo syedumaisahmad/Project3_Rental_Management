@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tenant Page</title>
+</head>
+<body>
+<h2 id="tenant_h2">Welcome to Tenant portal!</h2>
+
+<div id="maintenanceForm">
+    <h3>Submit Maintenance Request</h3>
+    <form onsubmit="submitTenantRequest(); return false;">
+        <label for="area">Area of Problem:</label>
+        <input type="text" id="area" required>
+
+        <label for="description">Problem Description:</label>
+        <textarea id="description" required></textarea>
+
+        <label for="photo">Optional Photo:</label>
+        <input type="file" id="photo">
+
+        <button type="submit">Submit Request</button>
+    </form>
+</div>
+
+<div id="previousRequests">
+    <h3>Previous Requests</h3>
+    <ul id="previousRequestList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

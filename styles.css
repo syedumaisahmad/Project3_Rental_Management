@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: seashell;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Sign-in Container */
+.sign-in-container {
+    max-width: 650px;
+    margin: 50px auto;
+    padding: 100px;
+    background-color: blanchedalmond;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select, button {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: azure;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Common Styles for Page Titles */
+h2, h3 {
+    color: #333;
+}
+
+#tenant_h2{
+    margin-left: 495px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+
+/* Maintenance Form */
+#maintenanceForm {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, textarea {
+    margin-bottom: 15px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Previous Requests */
+#previousRequests {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+#maintenance_h2{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 500px;
+}
+
+/* Maintenance Requests */
+#maintenanceRequests {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#filter {
+    margin-bottom: 10px;
+}
+
+#filterInput {
+    width: 60%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Update Status Form */
+#updateStatusForm {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+
+/* Manager Page */
+
+#manager_h2{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 500px;
+}
+
+
+#addTenantForm {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#updateTenantForm {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#moveTenantForm {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#deleteTenantForm {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#tenantTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+#tenantTable th, #tenantTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#tenantTable th {
+    background-color: #f2f2f2;
+}
+
+#tenantTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#tenantTable tbody tr:hover {
+    background-color: #e6f7ff;
+}
+
